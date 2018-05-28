@@ -69,7 +69,7 @@ class Model(object):
                     saver.save(sess=sess,save_path='model/model.ckpt'+str(iters))
 
 def main():
-    model = Model(output_num=2, lr=0.0001, epochs=20,train_data_file='E:\\test_data\\train',test_data_file='E:\\test_data\\test')
+    model = Model(output_num=2, lr=0.0001, epochs=10,train_data_file='E:\\test_data\\train',test_data_file='E:\\test_data\\test')
     sess = tf.Session()
     model.train(sess)
     # print(model.output_with_softmax.name)
