@@ -1,4 +1,4 @@
-# Build a CNN and predict a single image
+## Build a CNN and predict a single image
 <br>
 #### 搭建自己的CNN并且预测单张图像
 目前很多项目利用CNN进行分类都是通过fine-tuning，利用fine-tuning的收敛速度快，而且都是用的大牛的网络结构，识别效果会比自己搭建的网络好。<br>
